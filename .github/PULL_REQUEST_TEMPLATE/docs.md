@@ -1,5 +1,5 @@
 ## docs: <short imperative summary>
-<!-- Replace above line with semantic title. -->
+<!-- Replace above line with semantic title. To auto-load: &template=docs.md in compare URL. -->
 
 ## Scope of Documentation Change
 What area is affected? (README, design doc, inline comments, diagrams, lab instructions.)

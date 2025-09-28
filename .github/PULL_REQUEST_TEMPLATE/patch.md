@@ -1,5 +1,5 @@
 ## fix: <short imperative summary>
-<!-- Replace above line with semantic title. -->
+<!-- Replace above line with semantic title. To auto-load: &template=patch.md in compare URL. -->
 
 ## Problem
 Describe the defect / incorrect behavior.

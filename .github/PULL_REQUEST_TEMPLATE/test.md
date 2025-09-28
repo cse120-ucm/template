@@ -1,5 +1,5 @@
 ## test: <short imperative summary>
-<!-- Replace above line with semantic title. -->
+<!-- Replace above line with semantic title. To auto-load: &template=test.md in compare URL. -->
 
 ## Purpose
 What behavior or regression is this test ensuring?

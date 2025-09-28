@@ -1,5 +1,5 @@
 ## refactor: <short imperative summary>
-<!-- Replace above line with semantic title. -->
+<!-- Replace above line with semantic title. To auto-load: &template=refactor.md in compare URL. -->
 
 ## Intent
 Why refactor? (clarity, reuse, testability, performance groundwork, etc.)

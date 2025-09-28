@@ -1,5 +1,5 @@
 ## feat: <short imperative summary>
-<!-- Replace above line with semantic title. -->
+<!-- Replace above line with semantic title. To auto-load this template when creating a PR: add &template=feature.md to the compare URL. -->
 
 ## Summary
 What feature does this add? Why is it needed?
