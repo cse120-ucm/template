@@ -29,10 +29,6 @@ Baseline vs new (qualitative or measured):
 - [ ] Design doc added/updated
 - [ ] Code comments added
 
-## Risks / Mitigations
-- Risk:
-- Mitigation:
-
 ## Related Issues
 Closes issue number <!-- e.g., Closes issue 12 -->
 

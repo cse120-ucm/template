@@ -11,23 +11,9 @@ What behavior or regression is this test ensuring?
 
 ## Coverage / Scenarios
 List critical paths / edge cases exercised:
-- 
-- 
-
-## Failure Demonstration (If Fixing Prior Bug)
-Show previous failing state (if applicable):
-```
-# before
-# <failing output snippet>
-```
-Now passing:
-```
-# after
-# <passing output snippet>
-```
-
-## Performance Impact
-Any slow tests added? Justify.
+- Edge case 1
+- Edge case 2
+- Edge case 3
 
 ## Related Implementation PR (If Separate)
 Link if tests are split from feature/fix work.

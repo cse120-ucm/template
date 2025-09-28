@@ -12,17 +12,9 @@ Describe structural differences (e.g., extracted functions, reduced duplication)
 
 ## Testing Strategy
 - Existing tests pass? (list command)
-- Added safety / characterization tests?
-```
-make test
-```
 
 ## Verification of No Behavior Change
 Evidence (logs, output equality, diff tools, benchmarks if relevant):
-
-## Risks
-Potential regressions or subtle logic shifts.
-Mitigations (extra asserts, staged rollout, etc.).
 
 ## Follow-Ups (If Any)
 Future cleanups unlocked by this change.
