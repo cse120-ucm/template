@@ -1,13 +1,13 @@
 name: Feature Request
 description: Suggest a new enhancement or capability
-title: "feat: <short description>"
+title: "Add search field to UI"
 labels: [feat]
 body:
-  - type: input
+  - type: textarea
     id: summary
     attributes:
       label: Summary
-      placeholder: Implement MLFQ scheduler
+      placeholder: Create a dynamic search field in the header bar. The search should filter results in real-time.
     validations:
       required: true
   - type: textarea
@@ -15,29 +15,12 @@ body:
     attributes:
       label: Motivation / Rationale
       description: Why is this needed?
+      placeholder: Many users have difficulty finding specific items in long lists.
     validations:
       required: true
   - type: textarea
-    id: behavior
+    id: implementation
     attributes:
-      label: Proposed Behavior
+      label: Proposed Implementation
       description: Inputs, outputs, side effects.
-    validations:
-      required: true
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternatives Considered
-  - type: textarea
-    id: risks
-    attributes:
-      label: Risks / Considerations
-  - type: checkboxes
-    id: dod
-    attributes:
-      label: Definition of Done
-      options:
-        - label: Updated docs
-        - label: Tests added/updated
-        - label: No performance regressions
-        - label: Peer reviewed
+      placeholder: Implement a text input field in the header that listens for input events and filters the displayed items based on the search query.

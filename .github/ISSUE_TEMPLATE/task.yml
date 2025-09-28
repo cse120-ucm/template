@@ -7,7 +7,7 @@ body:
     id: objective
     attributes:
       label: Objective
-      placeholder: Refactor PCB allocation path
+      placeholder: Research and propose a Database solution
     validations:
       required: true
   - type: textarea
@@ -15,16 +15,13 @@ body:
     attributes:
       label: Details / Subtasks
       placeholder: |
-        - [ ] Extract allocator
-        - [ ] Add unit tests
-  - type: textarea
-    id: dependencies
-    attributes:
-      label: Dependencies
+        - [ ] Research database options
+        - [ ] Compare pros/cons
+        - [ ] Write summary report
   - type: textarea
     id: acceptance
     attributes:
       label: Acceptance Criteria
       placeholder: |
-        * Existing tests pass
-        * New tests cover allocation failures
+        * Summary report submitted to project repo
+        * Solution chosen and approved by team
