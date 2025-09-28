@@ -1,0 +1,86 @@
+name: Bug Report
+description: Report a defect in existing code or behavior
+title: "fix: <short description>"
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please fill all required fields.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: One-line description of the issue.
+      placeholder: Scheduler crashes when queue empty
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Detailed Description
+      description: What is happening? Add context.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, compiler/runtime, branch.
+      value: |
+        OS:
+        Compiler/Runtime:
+        Branch:
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Numbered reproducible steps.
+      placeholder: |
+        1. Build project
+        2. Run with 3 processes
+        3. Observe crash
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior / Output
+      render: shell
+      placeholder: |
+        <paste logs>
+    validations:
+      required: true
+  - type: checkboxes
+    id: impact
+    attributes:
+      label: Impact / Severity
+      options:
+        - label: Crash / data loss
+        - label: Incorrect output
+        - label: Performance degradation
+        - label: Cosmetic / minor
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed Fix (Optional)
+      placeholder: Suspect race in ready queue manipulation
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Reporter Checklist
+      options:
+        - label: I searched existing issues
+          required: true
+        - label: I can reproduce consistently
+          required: true
+        - label: I attached relevant logs
+          required: true

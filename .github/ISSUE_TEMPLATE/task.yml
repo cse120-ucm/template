@@ -1,0 +1,30 @@
+name: Task
+description: Track a unit of work (refactor, docs, infra)
+title: "chore: <short description>"
+labels: [task]
+body:
+  - type: input
+    id: objective
+    attributes:
+      label: Objective
+      placeholder: Refactor PCB allocation path
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details / Subtasks
+      placeholder: |
+        - [ ] Extract allocator
+        - [ ] Add unit tests
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      placeholder: |
+        * Existing tests pass
+        * New tests cover allocation failures

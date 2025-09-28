@@ -1,0 +1,43 @@
+name: Feature Request
+description: Suggest a new enhancement or capability
+title: "feat: <short description>"
+labels: [feat]
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      placeholder: Implement MLFQ scheduler
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation / Rationale
+      description: Why is this needed?
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Proposed Behavior
+      description: Inputs, outputs, side effects.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks / Considerations
+  - type: checkboxes
+    id: dod
+    attributes:
+      label: Definition of Done
+      options:
+        - label: Updated docs
+        - label: Tests added/updated
+        - label: No performance regressions
+        - label: Peer reviewed
