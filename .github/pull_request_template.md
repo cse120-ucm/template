@@ -29,6 +29,6 @@ Fill at least: -->
 
 <!-- Describe the testing that was done to verify the changes. Include logs, screenshots, or other evidence as appropriate. -->
 
-## Linked Issue(s):
+## Linked Issues
 
 <!-- Closes issue # -->
