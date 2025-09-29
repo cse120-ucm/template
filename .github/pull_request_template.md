@@ -1,19 +1,16 @@
 <!--
-PR Template Index
 Because GitHub does not provide a native UI selector for multiple templates without query parameters, this index helps you choose the correct specialized template.
 
-Usage:
-1. Pick the appropriate template below.
-2. Click its link to open a pre-filled PR creation page (replace REPO_OWNER and REPO_NAME if not already substituted by GitHub).
-3. If you already opened a PR, you can copy/paste the content manually.
+Pull Request Templates are also available at https://cse120-ucm.github.io/course_overview/resources/pr_templates/
 
-Note: Links rely on the `template=` query parameter which only works when creating a NEW pull request (not editing an existing one).
+Usage: Update the current URL to include `&template=<filename>` where `<filename>` is one of the files listed below:
 
-Pull Request Templates are available at https://cse120-ucm.github.io/course_overview/resources/pr_templates/
-
+    New Feature: `&template=feature.md`
+    Bug Fix(Patch): `&template=patch.md`
+    Documentation: `&template=docs.md`
+    Refactor: `&template=refactor.md`
+    New Tests: `&template=test.md`
 -->
-
-
 
 <!-- ## Minimal Generic Section
 Fill at least: -->
