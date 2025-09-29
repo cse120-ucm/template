@@ -6,7 +6,6 @@ Project Description
 
 </div>
 
-
 ## Overview
 
 Project details
