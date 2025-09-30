@@ -1,7 +1,7 @@
 name: Feature Request
 description: Suggest a new enhancement or capability
-title: "Add search field to UI"
-labels: [feat]
+title: "<short description of the feature>"
+labels: [Feature]
 body:
   - type: textarea
     id: summary

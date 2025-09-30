@@ -1,7 +1,7 @@
 name: Discussion / Design Topic
 description: Start a technical / conceptual discussion
-title: "discussion: <topic>"
-labels: [discussion]
+title: "<discussion topic>"
+labels: [Discussion]
 body:
   - type: input
     id: topic

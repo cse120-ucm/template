@@ -1,7 +1,7 @@
 name: Task
 description: Track a unit of work (refactor, docs, infra)
-title: "chore: <short description>"
-labels: [task]
+title: "<short description of the task>"
+labels: [Task]
 body:
   - type: input
     id: objective
