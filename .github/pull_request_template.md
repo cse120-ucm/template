@@ -73,7 +73,7 @@ What changed and why it resolves the issue.
 
 ---
 
-## ====== REFACTOR/PERFORMANCE TEMPLATE ======
+<!-- ====== REFACTOR/PERFORMANCE TEMPLATE ====== -->
 
 ## Intent/Motivation/Rationale
 Why refactor? (clarity, reuse, testability, performance groundwork, etc.)
