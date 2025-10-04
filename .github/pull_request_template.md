@@ -7,7 +7,7 @@ Choose ONE template section below that matches your PR type
 - DOCUMENTATION TEMPLATE (for documentation updates)
 -->
 
----
+------------------------------------------------------------
 <!-- ====== Always Required ====== -->
 
 ## Summary
@@ -17,7 +17,7 @@ Choose ONE template section below that matches your PR type
 <!-- "Closes #<n>" for automatic closure. separate multiple with commas -->
 Closes #4, #5, #6
 
----
+------------------------------------------------------------
 
 <!-- ====== NEW FEATURE TEMPLATE ====== -->
 
@@ -45,7 +45,7 @@ Key decisions, trade-offs, alternative approaches rejected.
 - [ ] No dead / Debug / Commented-Out code
 - [ ] Follows course integrity guidelines
 
----
+------------------------------------------------------------
 
 <!-- ====== BUGFIX/PATCH TEMPLATE ====== -->
 
@@ -71,7 +71,7 @@ What changed and why it resolves the issue.
 - [ ] No new warnings introduced
 - [ ] Docs updated
 
----
+------------------------------------------------------------
 
 <!-- ====== REFACTOR/PERFORMANCE TEMPLATE ====== -->
 
@@ -93,16 +93,13 @@ Modules / Files / Components affected
 - [ ] Dead code removed
 - [ ] Behavior equivalence verified
 
----
+------------------------------------------------------------
 
 <!-- ====== TEST TEMPLATE ====== -->
 
 ## Test Additions / Changes
-
 - **New test files:** 
-
 - **Modified tests:** 
-
 - **Removed tests (if any):** 
 
 ## Coverage / Scenarios
@@ -117,7 +114,7 @@ List critical paths / edge cases exercised:
 - [ ] No redundant overlapping tests
 - [ ] Test names are descriptive
 
----
+------------------------------------------------------------
 
 <!-- ====== DOCUMENTATION TEMPLATE ====== -->
 
@@ -141,7 +138,7 @@ List major additions/updates
 - [ ] Removed stale/outdated sections
 - [ ] Consistent formatting and style
 
----
+------------------------------------------------------------
 
 ## Additional Notes (Optional - Keep if needed)
 <!-- Risks, assumptions, rollback plan, reviewer guidance, etc. -->
