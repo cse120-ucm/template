@@ -1,11 +1,5 @@
 <!--
-INSTRUCTIONS:
-1. Choose ONE template section below that matches your PR type
-2. DELETE the other 4 template sections you're not using
-3. Fill in the common section and your chosen template
-4. Follow the semantic commit format in your PR title
-
-Template Options:
+Choose ONE template section below that matches your PR type
 - FEATURE TEMPLATE (for new capabilities)
 - BUGFIX TEMPLATE (for fixing incorrect behavior)
 - REFACTOR TEMPLATE (for code restructuring without behavior change)
@@ -14,7 +8,7 @@ Template Options:
 -->
 
 ---
-## COMMON SECTION (Always Required)
+<!-- ====== COMMON SECTION (Always Required) ====== -->
 
 ## Summary
 <!-- Summary/Description of the changes made in this PR -->
