@@ -8,7 +8,7 @@ Choose ONE template section below that matches your PR type
 -->
 
 ---
-<!-- ====== COMMON SECTION (Always Required) ====== -->
+<!-- ====== Always Required ====== -->
 
 ## Summary
 <!-- Summary/Description of the changes made in this PR -->
