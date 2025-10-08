@@ -1,11 +1,18 @@
 <!--
-Choose ONE template section below that matches your PR type
-- FEATURE TEMPLATE (for new capabilities)
-- BUGFIX TEMPLATE (for fixing incorrect behavior)
-- REFACTOR TEMPLATE (for code restructuring without behavior change)
-- TEST TEMPLATE (for adding/updating tests)
-- DOCUMENTATION TEMPLATE (for documentation updates)
+Choose ONE template section below that matches your PR type.
+Delete the sections you don't need, keeping only the relevant template.
 -->
+
+## PR Type Selection
+**Select the type of change (check one):**
+- [ ] 🎯 **Feature** - New capability or functionality
+- [ ] 🐛 **Bug Fix** - Fixing incorrect behavior  
+- [ ] 🔧 **Refactor** - Code restructuring without behavior change
+- [ ] ✅ **Test** - Adding or updating tests
+- [ ] 📝 **Documentation** - Documentation updates only
+- [ ] 🏗️ **Chore** - Build process, dependencies, or maintenance
+
+**After selecting your PR type above, keep ONLY the corresponding template section below and delete the rest.**
 
 ------------------------------------------------------------
 <!-- ====== Always Required ====== -->
