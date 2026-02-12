@@ -134,9 +134,6 @@ List critical paths / edge cases exercised:
 ## Motivation
 Why was this update needed?
 
-## Content Summary
-List major additions/updates 
-
 ## Verification
 - [ ] Markdown renders correctly
 - [ ] Links verified and working
